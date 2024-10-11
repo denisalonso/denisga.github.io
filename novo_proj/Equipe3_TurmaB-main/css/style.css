@@ -103,3 +103,19 @@ footer {
     margin-bottom: 1rem;
 }
 
+.p2 {
+    padding-left: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.blob {
+    width: max-content;
+    display: flex;
+    padding: 14px;
+    border-radius: 20px;
+    background:#c0c0c0;
+    outline: none;
+    border: none;
+}
