@@ -111,11 +111,32 @@ footer {
 }
 
 .blob {
+    font-size: 1.5rem;
+    text-align:center;
+    font-family: "Montserrat", sans-serif; ;
     width: max-content;
     display: flex;
-    padding: 14px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+    padding-left: 6rem;
     border-radius: 20px;
     background:#c0c0c0;
     outline: none;
     border: none;
+}
+.font_group{
+    font-size: 50%;
+
+}
+.border{
+    border-top: .1rem solid black;
+    border-bottom: .1rem solid black;
+}
+
+.space_between{
+    justify-content: space-between;
+}
+html{
+    background-color: rgb(204, 82, 0);
 }
