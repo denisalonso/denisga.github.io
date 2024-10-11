@@ -1,0 +1,107 @@
+html {
+    background-color: white;
+}
+
+header {
+    --font-size: 4rem;
+    position: relative;
+    font-size: var(--font-size);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    content: inherit;
+}
+
+a {
+    font-family: "EB Garamond", serif;;
+    text-decoration: none;
+    color:Black;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "EB Garamond", serif;
+}
+
+nav {
+    direction: flex;
+    justify-content: space-around;
+}
+
+footer {
+    direction: flex;
+    align-items: flex-end;
+    border-top: 1px black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;    
+
+}
+
+.bord {
+    border-top: 2px solid black;
+}
+.search {
+    --padding: 14px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    padding-left: 2rem;
+    border-radius: 20px;
+    background: #f6f6f6;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+.icon {
+    height: 80px;
+    width:80px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.linebreak {
+    margin-bottom: 1rem;
+}
+
