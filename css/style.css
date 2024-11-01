@@ -1,0 +1,592 @@
+html {
+    background-color: white;
+}
+
+body {
+    padding: 2%;
+}
+
+header {
+    --font-size: 4rem;
+    position: relative;
+    font-size: var(--font-size);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    font-family: "EB Garamond", serif;;
+    text-decoration: none;
+    color:Black;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;    
+}
+
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "EB Garamond", serif;
+}
+
+nav {
+    justify-content: space-around;
+}
+
+footer {
+    border-top: 0.15rem solid black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    padding-left: 6rem;
+    border-radius: 1rem;
+    background: white;
+    margin: 2%;
+    margin-bottom: 0;
+    border: 0.03rem black solid;
+}
+
+/*rem = 16px*/
+
+.search-input {
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    color: black;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.icon {
+    height: 6rem;
+    width: 6rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linebreak {
+    margin-bottom: 1rem;
+}
+
+.p2 {
+    padding-left: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    border: var(--border);
+}
+
+#logo {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.icon-est-img {
+    width: 50%;
+}
+
+.icon-est {
+    --border: 0.15rem #cc5200 solid;
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff944d;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#chat_est {
+    --border: 0.15rem black solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: var(--border);
+}
+
+#voltar {
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    width: 2rem;
+    padding-bottom: .28rem;
+
+}
+
+#chat_geral {
+    --border: 0.15rem black solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: center;
+    border-top: var(--border);
+    border-bottom: var(--border);
+}
+
+#titulo-est {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mensagem {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    border-radius: 1rem;
+    background: white;
+    margin: 2%;
+    border: 0.03rem black solid;
+}
+
+.mensagem-input {
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    color: black;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 15rem;
+}
+
+#enviar {
+    width: max-content;
+    align-items: center;
+    padding: 2%;
+}
+
+.barra-msg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.msg-balloon-rec {
+    width: max-content;
+    display: flex;    
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    background: #007a99;
+    margin: 1.5%;
+    font-size: 1rem;
+}
+
+.msg-balloon-env {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    background: #00b8e6;
+    margin: 1.5%;
+    font-size: 1rem;
+}
+
+.env{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.hora {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    left: 1.2rem;
+    top: .5rem;
+    font-size: .85rem;
+}
+
+.nome {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: .5rem;
+    right: 1rem;
+    font-size: .85rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+#duvidas {
+    font-size: 1.25rem;
+}
+
+#salas-bate-papo {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo {
+    --margin: .75rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: var(--margin);
+    margin-top: var(--margin);
+}
+
+.nome-grupo {
+    display: flex;
+    font-size: 1.4rem;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#blob-perfil {
+    display: flex;
+    flex-direction: row;
+    background-color: #ff944d;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+#profile-pic {
+    width: 6rem;
+    border-radius: 100%;
+
+}
+
+#profile-data {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+#profile-info {
+    font-size: 1.15rem;
+    text-align: justify;
+}
+
+#username {
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+#config {
+    height: 2.5rem;
+    position: fixed;
+    right: 1.5rem;
+}
+
+.fav {
+    width: 7rem;
+}
+
+.fav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #ff944d;
+    justify-content: center;
+    padding: .15rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.fav-menu {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.busca-recente {
+    font-size: 1.4rem;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+}
+
+.recent-item {
+    margin-bottom: 1rem;
+}
+
+.search2 {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    padding-left: 3rem;
+    border-radius: 1rem;
+    background: white;
+    margin: 2%;
+    margin-bottom: 0;
+    border: 0.03rem black solid;
+}
+
+#search {
+    display: flex;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    color: black;
+    padding-left: .3rem;
+    align-items: center;
+}
+
+#menu-suspenso {
+    position: fixed;
+    left: 1.9rem;
+    top: 7rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.cat {
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    border: .05rem black solid;
+}
+
+.blob-est {
+    background-color: #ff944d;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.pic-est {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 2rem;
+}
+
+.loc-icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.rating {
+    width: 6rem;
+    position: relative;
+    bottom: .5rem;
+}
+
+.nome-est {
+    font-size: 1.6rem;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.loc {
+    display: flex;
+    flex-direction: row;
+    padding-top: .4rem;
+}
+
+.icon1 {
+    width: 3rem;
+}
+
+.bairro {
+    display: flex;
+    align-items: center;
+}
+
+.link-chat {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.content-blob {
+    display: flex;
+    flex-direction: row;
+    background-color: #ff944d;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-blob-icon {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 2rem;
+}
+
+.content-blob-title {
+    text-align: center;
+    margin: auto;
+}
+
+.video-title {
+    background-color: #00b8e6;
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+}
+
+.video-banner {
+    margin-top: 2rem;
+    width: 100%;
+    height: 8rem;
+}
+
+.menu-nav-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-banner {
+    width: 100%;
+    height: 100%;
+}
+
+.video-header {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+}
+
+#video-info {
+    font-size: 1.3rem;
+}
+
+.cell {
+    margin-bottom: .15rem;;
+}
+
+.cell-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: .15rem black solid;
+    border-bottom: .15rem black solid;
+}
+
+.cell-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cell-footer-outer {
+    display: flex;
+    flex-direction: column;
+    border-top: .15rem black solid;
+    border-bottom: .15rem black solid;
+}
+
+.cell-footer-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cell-footer-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+}
+
+.p-cell {
+    padding-left: 2rem;
+}
+
+.resumo-thumbnail {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 43%;
+}
+
+.icon-img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.sub-icon {
+    height: 4rem;
+    width: 4rem;
+}
+
+.sub-icon2 {
+    height: 3rem;
+    width: 3rem;
+}
+
+.sub-icon3 {
+    height: 2rem;
+    width: 2rem;
+}
+
+#fav {
+    height: 3rem;
+}
+
+.footer-icon {
+    height: 5rem;
+    width: 5rem;
+}
