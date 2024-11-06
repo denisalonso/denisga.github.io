@@ -325,8 +325,8 @@ footer {
 
 #config {
     height: 2.5rem;
-    position: fixed;
-    right: 1.5rem;
+    position: relative;
+    bottom: .5rem;
 }
 
 .fav {
