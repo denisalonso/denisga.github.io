@@ -4,6 +4,7 @@ html {
 
 body {
     padding: 2%;
+    padding-bottom: 60%;
 }
 
 header {
@@ -58,6 +59,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: white solid;
 }
 
 .search {
